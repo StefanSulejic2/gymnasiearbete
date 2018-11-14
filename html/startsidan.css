@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.bg {
+    background-image: url("img/NTIbakgrund6.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sidenav{
+    position: fixed;
+    width: 230px;
+    height: 100%;
+    background: #111;
+    left: -230px;
+    transition: 0.5s;
+}
+
+#sidenav.active{
+    left: 0;
+}
+
+#sidenav ul{
+    padding-top: 20px;
+    text-align: center;
+}
+
+ a:hover {
+    color: #818181;
+}
+
+a:link{
+    padding: 15px 0px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+a{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#sidenav .toggle-btn{
+    position: absolute;
+    left: 230px;
+}
+
+p{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-top: 320px;
+    margin-bottom: 320px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
