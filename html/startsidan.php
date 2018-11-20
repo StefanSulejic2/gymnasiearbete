@@ -1,3 +1,6 @@
+<?php
+header('Content-type: text/css; charset: UTF-8');
+?>
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +19,16 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg img{
+    float:right; 
+    margin-right:25px; 
+    margin-top:20px;
+    width:200px;
+    height:50px;
+    border:0;
+}
+
 
 #sidenav{
     position: fixed;
@@ -46,7 +59,7 @@ a:link{
     display: block;
 }
 
-a{
+#sidenav a{
     color: white;
 }
 
@@ -87,8 +100,10 @@ p{
 }
 
 footer{
-    background-color:#111;
-    color: blue;
+    width: 100%;
+    background-color: #111;
     padding: 60px 0px;
-    
+    text-align: center;
+    color: white;
 }
+

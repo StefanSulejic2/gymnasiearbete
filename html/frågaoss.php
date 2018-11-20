@@ -5,11 +5,16 @@
 <head>
     <meta charset="utf-8">
     <title>NTI Gymnasiet Södertälje</title>
-    <link rel="stylesheet" href="startsidan.css">
     <script src="meny.js"></script>
 </head>
  <body>
- <?php
-require "menu.php"
-?>
+
+ <link rel="stylesheet" href="startsidan.php">
+ 
+    <?php
+    require "menu.php"
+    ?>
+    <?php
+    require "footer.php"
+    ?>
 </body>
