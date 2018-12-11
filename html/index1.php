@@ -18,7 +18,7 @@ require "menu.php"
        <?php
        require "ntilogga.php"
        ?>
-       <h2>NTI Gymnasiet Södertälje</h2>
+       <div class="center">NTI Gymnasiet Södertälje</div>
         </div>
 
         <h1>Frammtiden ligger i IT och Programmering</h1>

@@ -48,11 +48,11 @@ body, html {
     text-align: center;
 }
 
- a:hover {
+ #sidenav a:hover {
     color: #818181;
 }
 
-a:link{
+#sidenav a:link{
     padding: 15px 0px 8px;
     text-decoration: none;
     font-size: 25px;
@@ -74,17 +74,19 @@ h1{
     margin-top: 100px;
 }
 
-h2{
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    margin-left: 400px;
-    margin-right: 440px;
-    margin-top: 350px;
-    padding-left: 50px;
-    padding-right: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 50px;
     border: 4px solid white;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p{
@@ -106,4 +108,3 @@ footer{
     text-align: center;
     color: white;
 }
-
