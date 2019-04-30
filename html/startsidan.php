@@ -21,6 +21,7 @@ body, html {
 }
 
 .bg img{
+    display: block;
     float:right; 
     margin-right:25px; 
     margin-top:20px;
@@ -29,49 +30,21 @@ body, html {
     border:0;
 }
 
-
-#sidenav{
-    position: fixed;
-    width: 230px;
-    height: 100%;
-    background: #111;
-    left: -230px;
-    transition: 0.5s;
-}
-
-#sidenav.active{
-    left: 0;
-}
-
-#sidenav ul{
-    padding-top: 20px;
-    text-align: center;
-}
-
- #sidenav a:hover {
-    color: #818181;
-}
-
-#sidenav a:link{
-    padding: 15px 0px 8px;
-    text-decoration: none;
-    font-size: 25px;
-    display: block;
-}
-
-#sidenav a{
-    color: white;
-}
-
-#sidenav .toggle-btn{
-    position: absolute;
-    left: 230px;
-}
-
 h1{
     text-align: center;
     font-size: 45px;
-    margin-top: 100px;
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
 }
 
 .center{
@@ -89,16 +62,31 @@ h1{
     padding-bottom: 20px;
 }
 
+.logga{
+    width:400px;
+}
+
+.widelbl{
+    font-size:20px;
+}
+
+.input{
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: -5px;
+    border-radius: 1px;
+}
+
 p{
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     width: 700px;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
     color: black;
     border-radius: 8px;
-    padding: 25px;
+    padding: 10px;
 }
 
 footer{
@@ -107,4 +95,83 @@ footer{
     padding: 60px 0px;
     text-align: center;
     color: white;
+    
+}
+
+.mySlides{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w3-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    transform: translate(0%, 1000%);
+    -ms-transform: translate(-0%, -50%%);
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 100%;
+    right: 25%;
+    transform: translate(0%, 1000%);
+    -ms-transform: translate(0%,-50%);
+}
+.mySlides {display:none;}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.txtbtn {
+  background-color: #4b0082;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#gygemte, #prgemte, #inrkute, #fösofte, #föengte, #invalte, #gygemit, #prgemit, #inrkuit, #fösoftit, #föengit, #invalit{
+    list-style-type: none;
+    text-align: left;
+    font-size: 24px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.mitt{
+    text-align: center;
 }
